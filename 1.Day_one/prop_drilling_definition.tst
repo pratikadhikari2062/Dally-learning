@@ -1,0 +1,1 @@
+props driling is the process of passing data from a parent component to deeply nexted child component through intermediate components .
