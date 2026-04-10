@@ -1,7 +1,7 @@
-props driling is the process of passing data from a parent component to deeply nexted child component through intermediate components .
+props drilling is the process of passing data from a parent component to deeply nexted child component through intermediate components .
 
 
-1.example of proop driling;
+1.example of proop drilling;
 
 function App() {
   const name = "Ram";
@@ -20,3 +20,8 @@ function Son({ name }) {
 function GrandSon({ name }) {
   return <h1>My grandfather's name is {name}</h1>;
 }
+
+ challenge of props drilling 
+ complexity and boilerolate
+3. props drilling   can lead to increaded complexity and boilerolate code 
+    especially in large component trees As components get nexted deeper managing the flow of props becomes more challenge and can clutter the codebase 
