@@ -25,3 +25,8 @@ function GrandSon({ name }) {
  complexity and boilerolate
 3. props drilling   can lead to increaded complexity and boilerolate code 
     especially in large component trees As components get nexted deeper managing the flow of props becomes more challenge and can clutter the codebase 
+
+    How to overcome prop drilling
+
+    contex api:
+    
